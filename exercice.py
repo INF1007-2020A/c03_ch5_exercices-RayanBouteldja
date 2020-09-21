@@ -6,13 +6,18 @@ from typing import List
 
 
 def convert_to_absolute() -> float:
-    return 0.0
-
+    nombre = float(input("Écrire un nombre: "))
+    if nombre<0:
+        nombre = -nombre
+    return nombre
 
 def use_prefixes() -> List[str]:
+    resultat=[]
     prefixes, suffixes = 'JKLMNOP', 'ack'
-
-    return [""]
+    for lettre in prefixes:
+        mot=lettre+suffixes
+        resultat.append(mot)    
+    return [resultat]
 
 
 def prime_integer_summation() -> int:
