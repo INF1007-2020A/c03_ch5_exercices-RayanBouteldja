@@ -36,6 +36,11 @@ def factorial(number: int) -> int:
 
 
 def use_continue() -> None:
+    for numero in range(1,11):
+        if numero==5:
+           continue
+        else:
+           print(numero)
     pass
 
 
