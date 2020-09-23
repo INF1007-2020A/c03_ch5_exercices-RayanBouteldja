@@ -3,7 +3,7 @@
 
 
 from typing import List
-
+from math import sqrt
 
 def convert_to_absolute() -> float:
     nombre = float(input("Écrire un nombre: "))
@@ -21,11 +21,18 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    return 0
+    somme=0                  
+    return somme
 
 
 def factorial(number: int) -> int:
-    return 0
+    factorielle = 1
+    n=0
+    while n<number:
+        factorielle*=(n+1)
+        n+=1
+    return factorielle
+
 
 
 def use_continue() -> None:
