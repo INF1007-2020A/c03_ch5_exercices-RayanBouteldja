@@ -21,7 +21,19 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    somme=0                  
+    num_premier=0
+    nombre=2
+    somme=0
+    while num_premier<100:
+        estpremier=True
+        for i in range(1,nombre+1):
+            if nombre%i==0 and i!=1 and i!=nombre:
+               estpremier=False
+               break
+        if estpremier:
+            somme+=nombre
+            num_premier += 1
+        nombre+=1                 
     return somme
 
 
@@ -39,9 +51,7 @@ def use_continue() -> None:
     for numero in range(1,11):
         if numero==5:
            continue
-        else:
-           print(numero)
-    pass
+        print(numero)
 
 
 def main() -> None:
