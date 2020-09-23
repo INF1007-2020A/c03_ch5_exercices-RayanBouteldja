@@ -17,7 +17,7 @@ def use_prefixes() -> List[str]:
     for lettre in prefixes:
         mot=lettre+suffixes
         resultat.append(mot)    
-    return [resultat]
+    return resultat
 
 
 def prime_integer_summation() -> int:
