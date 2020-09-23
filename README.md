@@ -4,13 +4,14 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
 1/1 | Calcul de la factorielle
 1/1 | Utilisation des préfixes
-0/1 | Calcul de la sommation
-2/3 | **Total**
+1/1 | Calcul de la sommation
+3/3 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 5)
